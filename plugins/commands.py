@@ -51,8 +51,8 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
         await asyncio.sleep(1)
         await m.delete()
-        await message.reply_video(
-            video=random.choice(PICS),
+        await message.reply_photo(
+            photo=random.choice(PICS),
             caption=START_MESSAGE.format(user=message.from_user.mention, bot=temp.B_LINK),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -101,8 +101,8 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
         await asyncio.sleep(1)
         await m.delete()
-        await message.reply_video(
-            video=random.choice(PICS),
+        await message.reply_photo(
+            photo=random.choice(PICS),
             caption=START_MESSAGE.format(user=message.from_user.mention, bot=temp.B_LINK),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
