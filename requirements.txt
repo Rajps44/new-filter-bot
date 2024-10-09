@@ -10,6 +10,7 @@ shortzy
 aiohttp
 aiofiles
 beautifulsoup4
+Pillow
 telegraph
 speedtest-cli
 fuzzywuzzy
