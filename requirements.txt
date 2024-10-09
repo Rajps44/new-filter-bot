@@ -16,3 +16,5 @@ python-Levenshtein
 googletrans==4.0.0-rc1
 beautifulsoup4
 Pillow
+gtts==2.2.3
+
