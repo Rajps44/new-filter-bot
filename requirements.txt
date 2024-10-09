@@ -9,9 +9,10 @@ git+https://github.com/Joelkb/cinemagoer
 shortzy
 aiohttp
 aiofiles
-beautifulsoup4
-Pillow
 telegraph
 speedtest-cli
 fuzzywuzzy
 python-Levenshtein
+googletrans==4.0.0-rc1
+beautifulsoup4
+Pillow
